@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weldence | Professional Welding Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1a1a1a;
+      color: #f2f2f2;
+    }
+    header {
+      background-color: #ff4500;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      text-align: center;
+      background-color: #2a2a2a;
+      padding: 10px;
+    }
+    nav a {
+      color: #f2f2f2;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #ff4500, #d32f2f);
+      color: white;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background-color: #2a2a2a;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #ff6347;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Weldence</h1>
+    <p>Professional TIG & ARC Welder</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section class="hero">
+    <h2>Welcome to My Welding Portfolio</h2>
+    <p>Showcasing years of expertise in TIG, ARC, and 6G Welding across industrial, pipeline, and structural work.</p>
+  </section>  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a certified multi-welder with over 3 years of hands-on experience in TIG and ARC welding. Skilled in pipe, structural, and RT welding. Based in Jubail, Saudi Arabia, I have worked with reputed companies across various industrial projects.</p>
+  </section>  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Industrial Pipe Welding – L&T Hydrocarbon</h3>
+        <p>6G position TIG welding for high-pressure pipelines with radiographic testing (RT) approval.</p>
+      </div>
+      <div class="card">
+        <h3>Structural Frame – Inma Steel</h3>
+        <p>Heavy-duty ARC welding on steel structures for offshore modules.</p>
+      </div>
+    </div>
+  </section>  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li>AWS Certified TIG Welder</li>
+      <li>6G Welding Test Passed – Nasser S. Al-Hajri Corp</li>
+      <li>OSHA Safety Training</li>
+    </ul>
+  </section>  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: badrulalam5333@gmail.com</p>
+    <p>Phone: +966 57168 7143</p>
+    <p>Location: Al Jubail, Saudi Arabia</p>
+  </section>  <footer>
+    &copy; 2025 Weldence. All rights reserved.
+  </footer>
+</body>
+</html>
